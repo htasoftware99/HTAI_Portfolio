@@ -742,5 +742,44 @@ export const projects = [
       },
     ],
   },
+
+  {
+    id: 19,
+    title: "MEDICAI",
+    date: "June 8, 2025",
+    description:
+      "This project is an AI-powered system for detecting and classifying brain tumors and pneumonia in MRI scans. It uses YOLO for real-time tumor detection and MobileNetV2 to classify tumors with high accuracy. Report analysis and Q&A using the RAG system in heart attack and diabetes predictions. The system also integrates the Llama3.2:3b language model to provide medical explanations, including an ELI5 mode for simplified understanding. With Grad-CAM visualizations and an interactive Streamlit interface, the tool is both explainable and user-friendly.",
+    image:
+      "https://www.datawow.co.th/_next/image?url=https%3A%2F%2Fdatawow.s3.amazonaws.com%2Fblog%2F115%2Fimage_1%2FAI.png&w=1920&q=75",
+    tags: [
+      "Python",
+      "Streamlit",
+      "Llama",
+      "YOLO",
+      "MobileNetV2",
+      "Grad-CAM",
+      "OpenCV",
+      "PyTorch",
+      "LangChain",
+      "Chroma",
+      "RAG",
+    ],
+    category: "generative ai",
+    github: "https://github.com/htasoftware99/MEDICAI",
+    member: [
+      {
+        name: "Hasan Tuğra AYKAÇ",
+        img: "https://avatars.githubusercontent.com/u/69513506?v=4",
+        linkedin: "https://www.linkedin.com/in/hasanttugraaykac/",
+        github: "https://github.com/htasoftware99",
+      },
+      {
+        name: "Ali Livan TÜRK",
+        img: "https://avatars.githubusercontent.com/u/88203714?v=4",
+        linkedin: "https://www.linkedin.com/in/alilivanturk/",
+        github: "https://github.com/Livanturk",
+      },
+    ],
+  },
 ];
 
