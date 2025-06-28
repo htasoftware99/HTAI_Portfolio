@@ -316,51 +316,7 @@ export const projects = [
     github: "https://github.com/htasoftware99/BreastCancer",
     
   },
-  {
-    id: 1,
-    title: "Diabetes Prediction",
-    date: "August 17, 2024",
-    description:
-      "This project implements machine learning models such as Logistic Regression, Decision Trees, and Gradient Boosting to predict the likelihood of diabetes based on patient health data. It involves data cleaning, feature selection, model training, and evaluation using metrics like accuracy, F1-score, and ROC-AUC. The objective is to develop an accurate and interpretable model to aid early diagnosis and improve patient management.",
-    image:
-      "https://insideainews.com/wp-content/uploads/2023/08/Machine_Learning_shutterstock_742653250_special-1024x512.jpg",
-    tags: [
-      "Python",
-      "Scikit-learn",
-      "Numpy",
-      "Pandas",
-      "Matplotlib",
-      "Seaborn",
-      "Kaggle",
-      "Jupyter",
-      "Streamlit",
-    ],
-    category: "machine learning",
-    github: "https://github.com/htasoftware99/DiabetesDiseases",
-  },
-  {
-    id: 2,
-    title: "Heart Disease Prediction",
-    date: "August 17, 2024",
-    description:
-      "This project uses machine learning techniques such as Logistic Regression, Random Forest, and Support Vector Machines to predict the presence of heart disease from clinical data. It includes steps like data preprocessing, feature engineering, model training, and evaluation with metrics such as accuracy, precision, recall, and ROC-AUC. The goal is to create a reliable model that supports early diagnosis and helps healthcare professionals in risk assessment.",
-    image:
-      "https://insideainews.com/wp-content/uploads/2023/08/Machine_Learning_shutterstock_742653250_special-1024x512.jpg",
-    tags: [
-      "Python",
-      "Scikit-learn",
-      "Numpy",
-      "Pandas",
-      "Matplotlib",
-      "Seaborn",
-      "Kaggle",
-      "Jupyter",
-      "Streamlit",
-    ],
-    category: "machine learning",
-    github: "https://github.com/htasoftware99/HeartDisease",
-    
-  },
+  
   {
     id: 3,
     title: "Kidney Disease Prediction",
@@ -530,32 +486,7 @@ export const projects = [
     category: "deep learning",
     github: "https://github.com/htasoftware99/Image_Classification_DL",
   },
-  {
-    id: 10,
-    title: "Chest X-ray Classification",
-    date: "August 18, 2024",
-    description:
-      "I built a deep learning model using Convolutional Neural Networks (CNNs) with TensorFlow and Keras to classify chest X-ray images for detecting potential lung diseases.",
-    image:
-      "https://www.gopichandrakesan.com/wp-content/uploads/2021/04/Deep-Learning.jpeg",
-    tags: [
-      "Python",
-      "Numpy",
-      "Pandas",
-      "Matplotlib",
-      "Seaborn",
-      "Kaggle",
-      "Jupyter",
-      "TensorFlow",
-      "Keras",
-      "Scikit-image",
-      "OpenCV",
-      "Streamlit",
-    ],
-    category: "deep learning",
-    github: "https://github.com/htasoftware99/chest_x_ray/tree/main",
-    
-  },
+  
   {
     id: 11,
     title: "Stock Price Prediction",
@@ -684,25 +615,6 @@ export const projects = [
     ],
     category: "generative ai",
     github: "https://github.com/htasoftware99/NewsAnalysis",
-    
-  },
-  {
-    id: 17,
-    title: "Medical Chatbot",
-    date: "March 5, 2025",
-    description:
-      "Users can upload an image and ask questions related to it, where the app encodes the image and sends it along with the query to a vision-enabled LLaMA model for analysis. Alternatively, users can submit text-only questions handled by a smaller LLaMA model.",
-    image:
-      "https://www.datawow.co.th/_next/image?url=https%3A%2F%2Fdatawow.s3.amazonaws.com%2Fblog%2F115%2Fimage_1%2FAI.png&w=1920&q=75",
-    tags: [
-      "Python",
-      "Groq",
-      "Streamlit",
-      "Llama"
-      
-    ],
-    category: "generative ai",
-    github: "https://github.com/htasoftware99/MedicalChatbot/tree/main",
     
   },
 
