@@ -145,6 +145,7 @@ const Navbar = () => {
           <NavLink href="#Projects">Projects</NavLink>
           <NavLink href="#Education">Education</NavLink>
           <NavLink href="https://medium.com/@htasoftware" target="_blank" rel="noopener noreferrer">Blog</NavLink>
+          <NavLink href="https://www.kaggle.com/hasantugra" target="_blank" rel="noopener noreferrer">Kaggle</NavLink>
 
         </NavItems>
 
@@ -165,6 +166,7 @@ const Navbar = () => {
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Education">
               Education
             </NavLink>
+            
             <GithubButton
               href={Bio.github}
               target="_Blank"

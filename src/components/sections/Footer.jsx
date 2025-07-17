@@ -87,6 +87,7 @@ const Footer = () => {
           <NavLink href="#Projects">Projects</NavLink>
           <NavLink href="#Education">Education</NavLink>
           <NavLink href="https://medium.com/@htasoftware" target="_blank" rel="noopener noreferrer">Blog</NavLink>
+          <NavLink href="https://www.kaggle.com/hasantugra" target="_blank" rel="noopener noreferrer">Kaggle</NavLink>
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.linkedin} target="display">

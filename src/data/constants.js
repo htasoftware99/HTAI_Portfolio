@@ -9,7 +9,7 @@ export const Bio = {
     "I am a curious and driven individual with a strong passion for artificial intelligence and its real-world applications. Constantly exploring new technologies, I aim to build intelligent solutions that are both impactful and innovative.",
   github: "https://github.com/htasoftware99",
   resume:
-    "https://drive.google.com/file/d/1VOmzjubSvK16XwkamkcY0pv4SwYt6uCC/view?usp=sharing",
+    "https://drive.google.com/file/d/19gBvko92ZKquWy3VMm-e-OXF7YVd9qs3/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/hasanttugraaykac/",
   medium: "https://github.com/htasoftware99",
   kaggle: "https://www.kaggle.com/hasantugra"
@@ -171,14 +171,19 @@ export const skills = [
           "https://yt3.googleusercontent.com/PKRBxhCiGa8Y0vPmHa1E2cdjpLhUq2Pl-gESwP7kk2plGgxLdsbjyTd9VjcJwBMiY0HQ8bvx5Q=s900-c-k-c0x00ffffff-no-rj",
       },
       {
-        name: "aws",
+        name: "AWS",
         image:
           "https://www.inovex.de/wp-content/uploads/Amazon_Web_Services_Logo-kl.png",
       },
       {
+        name: "GCP",
+        image:
+          "https://avatars.githubusercontent.com/u/2810941?s=280&v=4",
+      },
+      {
         name: "Docker",
         image:
-          "https://yt3.googleusercontent.com/vr50ZXiY9tM1xNgVT2cLt0sGSdL_xuvVYA0fPtzpB9-LNE32KN7bvq75Uwcz70xO-3S6Ts4zIQ=s900-c-k-c0x00ffffff-no-rj",
+          "https://w7.pngwing.com/pngs/219/411/png-transparent-docker-logo-kubernetes-microservices-cloud-computing-dockers-logo-text-logo-cloud-computing-thumbnail.png",
       },
       {
         name: "VS Code",
@@ -190,11 +195,7 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
       },
-      {
-        name: "Anaconda",
-        image:
-          "https://www.clipartmax.com/png/middle/349-3490136_anaconda-icon-anaconda-python-icon.png",
-      },
+      
     ],
   },
 
@@ -203,10 +204,10 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/v2/D4D0BAQEZO3tecT0gPw/company-logo_200_200/B4DZXW3riGHsAM-/0/1743066675927/ucanble_technology_logo?e=2147483647&v=beta&t=4tIGlOfdkJnOYri0_RNlLde2UfQJpDwhJpLIh1sQzwM",
+    img: "https://media.licdn.com/dms/image/v2/D4D0BAQGlvbtFrwjycA/company-logo_200_200/B4DZc6cWyBGgAI-/0/1749032201960/ucanble_technology_logo?e=2147483647&v=beta&t=Yd42o2VM30I-Ew0xjyn8Iz2m_GQJpXbkNNK_I6VkXrQ",
     role: "AI & LLM Intern",
     company: "Ucanble Technology",
-    date: "January 2025 - June 2025",
+    date: "February 2025 - June 2025",
     desc: "• I have developed innovative solutions utilizing open-source large language models, focusing on Retrieval-Augmented Generation (RAG) architectures. My projects span various domains including automated balance sheet analysis, smuggling detection, and document analysis. Additionally, I conducted performance benchmarking across different parameterized and quantized variants of large language models such as LLaMA, providing insights into model efficiency and accuracy in real-world applications.",
     skills: [
       "Python",
