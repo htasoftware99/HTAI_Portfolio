@@ -9,7 +9,7 @@ export const Bio = {
     "I am a curious and driven individual with a strong passion for artificial intelligence and its real-world applications. Constantly exploring new technologies, I aim to build intelligent solutions that are both impactful and innovative.",
   github: "https://github.com/htasoftware99",
   resume:
-    "https://drive.google.com/file/d/19gBvko92ZKquWy3VMm-e-OXF7YVd9qs3/view?usp=sharing",
+    "https://drive.google.com/file/d/19R73JLxaP7LUSM_fN6IASJ-YBlOt-bDH/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/hasanttugraaykac/",
   medium: "https://github.com/htasoftware99",
   kaggle: "https://www.kaggle.com/hasantugra"
@@ -205,9 +205,9 @@ export const experiences = [
   {
     id: 0,
     img: "https://media.licdn.com/dms/image/v2/D4D0BAQGlvbtFrwjycA/company-logo_200_200/B4DZc6cWyBGgAI-/0/1749032201960/ucanble_technology_logo?e=2147483647&v=beta&t=Yd42o2VM30I-Ew0xjyn8Iz2m_GQJpXbkNNK_I6VkXrQ",
-    role: "AI & LLM Intern",
+    role: "AI & LLMs Intern",
     company: "Ucanble Technology",
-    date: "February 2025 - June 2025",
+    date: "February 2025 - May 2025",
     desc: "• I have developed innovative solutions utilizing open-source large language models, focusing on Retrieval-Augmented Generation (RAG) architectures. My projects span various domains including automated balance sheet analysis, smuggling detection, and document analysis. Additionally, I conducted performance benchmarking across different parameterized and quantized variants of large language models such as LLaMA, providing insights into model efficiency and accuracy in real-world applications.",
     skills: [
       "Python",
@@ -276,7 +276,7 @@ export const education = [
     id: 0,
     img: "https://cdn.eleman.net/universite_img/turk-hava-kurumu-uni.png",
     school: "University of Turkish Aeronautical Association, Ankara",
-    date: "October 2020 - October 2025",
+    date: "October 2020 - September 2025",
     //grade: "",
     desc: "I am currently pursuing a Bachelor’s degree in Computer Engineering at the University of Turkish Aeronautical Association in Ankara, and I am in my final year of study. Throughout my academic journey, I have completed a comprehensive curriculum that includes courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, Data Science, Machine Learning, Natural Language Processing, and Digital Image Processing.",
     degree: "B.Sc. in Computer Engineering",
