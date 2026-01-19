@@ -132,6 +132,7 @@ const Projects = () => {
           >
             GENERATIVE AI
           </ToggleButton>
+          <Divider />
           <ToggleButton
             active={toggle === "agentic ai"}
             onClick={() => setToggle("agentic ai")}
