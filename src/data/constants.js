@@ -248,7 +248,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "https://ssk.biz.tr/wp-content/uploads/2016/08/sgk-aphb-nedir.jpg",
+    img: "https://yt3.googleusercontent.com/ytc/AIdro_mmxBXXAzoF8NwMJJwChwDGxpwdb1xVuqNuI9WIGaslECs=s900-c-k-c0x00ffffff-no-rj",
     role: "Fullstack Intern",
     company: "Social Security Institution",
     date: "July 2019 - August 2019 / July 2020 - September 2020",
@@ -277,8 +277,8 @@ export const education = [
     img: "https://cdn.eleman.net/universite_img/turk-hava-kurumu-uni.png",
     school: "University of Turkish Aeronautical Association, Ankara",
     date: "October 2020 - September 2025",
-    //grade: "",
-    desc: "I am currently pursuing a Bachelor’s degree in Computer Engineering at the University of Turkish Aeronautical Association in Ankara, and I am in my final year of study. Throughout my academic journey, I have completed a comprehensive curriculum that includes courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, Data Science, Machine Learning, Natural Language Processing, and Digital Image Processing.",
+    grade: "Graduated",
+    desc: "I graduated from University of Turkish Aeronautical Association in Ankara. Throughout my academic journey, I completed a comprehensive curriculum that included courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, Data Science, Machine Learning, Natural Language Processing, and Digital Image Processing.",
     degree: "B.Sc. in Computer Engineering",
   },
   {
@@ -319,7 +319,7 @@ export const projects = [
   },
   
   {
-    id: 3,
+    id: 1,
     title: "Kidney Disease Prediction",
     date: "September 1, 2024",
     description:
@@ -340,7 +340,7 @@ export const projects = [
     github: "https://github.com/htasoftware99/Kidney_Disease",
   },
   {
-    id: 4,
+    id: 2,
     title: "Autism Prediction",
     date: "December 14, 2024",
     description:
@@ -361,7 +361,7 @@ export const projects = [
     github: "https://github.com/htasoftware99/AutismPrediction",
   },
   {
-    id: 5,
+    id: 3,
     title: "Liver Disease Prediction",
     date: "December 14, 2024",
     description:
@@ -383,7 +383,7 @@ export const projects = [
     
   },
   {
-    id: 6,
+    id: 4,
     title: "Brain Stroke Prediction",
     date: "December 15, 2024",
     description:
@@ -410,7 +410,7 @@ export const projects = [
     github: "https://github.com/htasoftware99/BrainStroke",
   },
   {
-    id: 7,
+    id: 5,
     title: "Rainfall Prediction",
     date: "December 16, 2024",
     description:
@@ -438,7 +438,7 @@ export const projects = [
     github: "https://github.com/htasoftware99/Rainfall_Prediction",
   },
   {
-    id: 8,
+    id: 6,
     title: "Customer Churn Prediction",
     date: "December 16, 2024",
     description:
@@ -466,7 +466,7 @@ export const projects = [
     github: "https://github.com/htasoftware99/CustomerChurn",
   },
   {
-    id: 9,
+    id: 7,
     title: "Sentiment Analysis",
     date: "July 18, 2024",
     description:
@@ -489,7 +489,7 @@ export const projects = [
   },
   
   {
-    id: 11,
+    id: 8,
     title: "Stock Price Prediction",
     date: "December 14, 2024",
     description:
@@ -512,7 +512,7 @@ export const projects = [
     
   },
   {
-    id: 12,
+    id: 9,
     title: "MedVision",
     date: "October 29, 2024",
     description:
@@ -538,7 +538,7 @@ export const projects = [
     
   },
   {
-    id: 13,
+    id: 10,
     title: "Mental Health Chatbot",
     date: "January 31, 2025",
     description:
@@ -559,7 +559,7 @@ export const projects = [
     
   },
   {
-    id: 14,
+    id: 11,
     title: "Travel Agent",
     date: "February 7, 2025",
     description:
@@ -579,7 +579,7 @@ export const projects = [
     
   },
   {
-    id: 15,
+    id: 12,
     title: "Essay Grading System",
     date: "February 7, 2025",
     description:
@@ -599,7 +599,7 @@ export const projects = [
     
   },
   {
-    id: 16,
+    id: 13,
     title: "News Analysis",
     date: "February 9, 2025",
     description:
@@ -620,7 +620,7 @@ export const projects = [
   },
 
   {
-    id: 18,
+    id: 14,
     title: "Brain Tumor Detection & Classification",
     date: "May 27, 2025",
     description:
@@ -657,7 +657,7 @@ export const projects = [
   },
 
   {
-    id: 19,
+    id: 15,
     title: "MEDICAI",
     date: "June 8, 2025",
     description:
@@ -693,6 +693,56 @@ export const projects = [
         github: "https://github.com/Livanturk",
       },
     ],
+  },
+
+  {
+    id: 16,
+    title: "On-Premise AI Assistant",
+    date: "January 9, 2026",
+    description:
+      "This project is an advanced AI assistant that detects user intent and provides the most appropriate response; it has capabilities for voice/text chat, web search, and document analysis.",
+    image:
+      "https://www.datawow.co.th/_next/image?url=https%3A%2F%2Fdatawow.s3.amazonaws.com%2Fblog%2F115%2Fimage_1%2FAI.png&w=1920&q=75",
+    tags: [
+      "Python",
+      "LangChain",
+      "Gemini 2.5 Flash API",
+      "FastAPI",
+      "Streamlit",
+      "React",
+      "Gemma",
+      "Ollama",
+      "Huggingface",
+      "Chroma",
+      "RAG"
+      
+    ],
+    category: "generative ai",
+    github: "https://github.com/htasoftware99/on_premise_chatbot",
+    
+  },
+  {
+    id: 17,
+    title: "Multi Agent Supervisor System",
+    date: "January 11, 2026",
+    description:
+      "This project implements a Multi Agent System where a central Supervisor agent interprets user requests and delegates tasks to specific sub-agents. It's designed to handle complex workflows that might require different tools or capabilities, such as performing calculations, fetching real-time data, or creative writing.",
+    image:
+      "https://cdn.prod.website-files.com/664db30084faa8046b973fbb/67a9a9f38b9dfa523223d82a_agentic-ai-explained.jpeg",
+    tags: [
+      "Python",
+      "LangChain",
+      "LangGraph",
+      "Flask",
+      "React",
+      "Groq",
+      "OpenWeather",
+      "Todoist"
+      
+    ],
+    category: "agentic ai",
+    github: "https://github.com/htasoftware99/multi_ai_agent_system",
+    
   },
 ];
 
