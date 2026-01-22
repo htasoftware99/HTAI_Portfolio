@@ -744,5 +744,26 @@ export const projects = [
     github: "https://github.com/htasoftware99/multi_ai_agent_system",
     
   },
+  {
+    id: 18,
+    title: "AI Agent with Autogen",
+    date: "January 20, 2026",
+    description:
+      "Welcome to the AutoGen Agents Collection! This repository hosts a diverse set of AI-powered applications built with Microsoft AutoGen, Streamlit, and various LLM providers (Ollama, Groq, Gemini). Each project demonstrates a unique pattern of multi-agent collaboration to solve specific tasks ranging from coding and data analysis to fact-checking and creative writing.",
+    image:
+      "https://cdn.prod.website-files.com/664db30084faa8046b973fbb/67a9a9f38b9dfa523223d82a_agentic-ai-explained.jpeg",
+    tags: [
+      "Python",
+      "Autogen",
+      "Streamlit",
+      "Ollama",
+      "Groq",
+      "Gemini"
+      
+    ],
+    category: "agentic ai",
+    github: "https://github.com/htasoftware99/ai_agents_with_autogen",
+    
+  },
 ];
 
