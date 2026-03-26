@@ -2,14 +2,14 @@ export const Bio = {
   name: "Hasan Tuğra AYKAÇ",
   roles: [
     "Computer Engineer",
-    "DL & ML Engineer",
+    "Full-Stack AI Engineer",
     "NLP & LLM Researcher",
   ],
   description:
     "I am a curious and driven individual with a strong passion for artificial intelligence and its real-world applications. Constantly exploring new technologies, I aim to build intelligent solutions that are both impactful and innovative.",
   github: "https://github.com/htasoftware99",
   resume:
-    "https://drive.google.com/file/d/19R73JLxaP7LUSM_fN6IASJ-YBlOt-bDH/view?usp=sharing",
+    "https://drive.google.com/file/d/13u_Zb9OaVA4m4KgislzQuUDk7Agfh8j9/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/hasanttugraaykac/",
   medium: "https://github.com/htasoftware99",
   kaggle: "https://www.kaggle.com/hasantugra"
