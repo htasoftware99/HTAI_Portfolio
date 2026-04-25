@@ -4,6 +4,7 @@ export const Bio = {
     "Computer Engineer",
     "Full-Stack AI Engineer",
     "NLP & LLM Researcher",
+    "MLOps Practitioner",
   ],
   description:
     "I am a curious and driven individual with a strong passion for artificial intelligence and its real-world applications. Constantly exploring new technologies, I aim to build intelligent solutions that are both impactful and innovative.",
@@ -336,27 +337,33 @@ export const projects = [
     
   },
   
-  // {
-  //   id: 1,
-  //   title: "Kidney Disease Prediction",
-  //   date: "September 1, 2024",
-  //   description:
-  //     "This project leverages machine learning algorithms like Random Forest, Logistic Regression, and Support Vector Machines to predict chronic kidney disease using patient clinical and laboratory data. The process involves data preprocessing, handling missing values, feature selection, model training, and performance evaluation with metrics such as accuracy, precision, recall, and F1-score. The aim is to build an accurate predictive model to assist early diagnosis and improve patient care.",
-  //   image:
-  //     "https://insideainews.com/wp-content/uploads/2023/08/Machine_Learning_shutterstock_742653250_special-1024x512.jpg",
-  //   tags: [
-  //     "Python",
-  //     "Scikit-learn",
-  //     "Numpy",
-  //     "Pandas",
-  //     "Matplotlib",
-  //     "Seaborn",
-  //     "Kaggle",
-  //     "Jupyter",
-  //   ],
-  //   category: "machine learning",
-  //   github: "https://github.com/htasoftware99/Kidney_Disease",
-  // },
+  {
+    id: 1,
+    title: "Kidney Disease Prediction",
+    date: "April 25, 2026",
+    description:
+      "This project leverages machine learning algorithms like Random Forest, Logistic Regression, and Support Vector Machines to predict chronic kidney disease using patient clinical and laboratory data. The process involves data preprocessing, handling missing values, feature selection, model training, and performance evaluation with metrics such as accuracy, precision, recall, and F1-score. The aim is to build an accurate predictive model to assist early diagnosis and improve patient care.",
+    image:
+      "https://thumbs.dreamstime.com/b/machine-learning-operations-concept-mlops-d-illustration-application-devops-practices-to-workloads-262552271.jpg",
+    tags: [
+      "Python",
+      "Scikit-learn",
+      "Numpy",
+      "Pandas",
+      "Matplotlib",
+      "Seaborn",
+      "Kaggle",
+      "Jupyter",
+      "DVC",
+      "Comet-ML",
+      "Jenkins",
+      "Trivy",
+      "Terraform",
+      "Google Kubernetes Engine"
+    ],
+    category: "mlops",
+    github: "https://github.com/htasoftware99/kidney_disease_mlops",
+  },
   // {
   //   id: 2,
   //   title: "Autism Prediction",
