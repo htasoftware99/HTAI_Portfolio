@@ -361,27 +361,34 @@ export const projects = [
     category: "mlops",
     github: "https://github.com/htasoftware99/kidney_disease_mlops",
   },
-  // {
-  //   id: 2,
-  //   title: "Autism Prediction",
-  //   date: "December 14, 2024",
-  //   description:
-  //     "This project applies machine learning techniques such as Support Vector Machines, Random Forest, and Logistic Regression to predict the likelihood of autism spectrum disorder (ASD) based on behavioral and clinical data. The workflow includes data preprocessing, feature extraction, model training, and evaluation using metrics like accuracy, precision, recall, and ROC-AUC. The goal is to develop an effective and interpretable model to support early screening and diagnosis.",
-  //   image:
-  //     "https://insideainews.com/wp-content/uploads/2023/08/Machine_Learning_shutterstock_742653250_special-1024x512.jpg",
-  //   tags: [
-  //     "Python",
-  //     "Scikit-learn",
-  //     "Numpy",
-  //     "Pandas",
-  //     "Matplotlib",
-  //     "Seaborn",
-  //     "Kaggle",
-  //     "Jupyter",
-  //   ],
-  //   category: "machine learning",
-  //   github: "https://github.com/htasoftware99/AutismPrediction",
-  // },
+  {
+    id: 2,
+    title: "Liver Disease Prediction",
+    date: "May 2, 2026",
+    description:
+      "This project utilizes machine learning algorithms such as Logistic Regression, Random Forest, and Gradient Boosting to predict liver disease using patient clinical and laboratory data. The workflow involves data preprocessing, feature selection, model training, and evaluation with metrics like accuracy, precision, recall, and F1-score. The objective is to build a reliable model for early detection and assist healthcare providers in diagnosis and treatment planning.",
+    image:
+      "https://thumbs.dreamstime.com/b/machine-learning-operations-concept-mlops-d-illustration-application-devops-practices-to-workloads-262552271.jpg",
+    tags: [
+      "Python",
+      "Scikit-learn",
+      "Numpy",
+      "Pandas",
+      "Matplotlib",
+      "Seaborn",
+      "Kaggle",
+      "Jupyter",
+      "DVC",
+      "TensorBoard",
+      "Jenkins",
+      "Trivy",
+      "SonarQube",
+      "Terraform",
+      "Google Kubernetes Engine"
+    ],
+    category: "mlops",
+    github: "https://github.com/htasoftware99/liver_disease_mlops",
+  },
   // {
   //   id: 3,
   //   title: "Liver Disease Prediction",
