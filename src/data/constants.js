@@ -10,7 +10,7 @@ export const Bio = {
     "I am a curious and driven individual with a strong passion for artificial intelligence and its real-world applications. Constantly exploring new technologies, I aim to build intelligent solutions that are both impactful and innovative.",
   github: "https://github.com/htasoftware99",
   resume:
-    "https://drive.google.com/file/d/13u_Zb9OaVA4m4KgislzQuUDk7Agfh8j9/view?usp=sharing",
+    "https://drive.google.com/file/d/1IL2ei9msauqTQ56jZo9FMbSzrFH1GdxD/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/hasanttugraaykac/",
   medium: "https://github.com/htasoftware99",
   kaggle: "https://www.kaggle.com/hasantugra"
