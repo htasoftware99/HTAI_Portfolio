@@ -9,10 +9,10 @@ import ProjectCard from "../cards/ProjectCard";
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  justify-contnet: center;
+  justify-content: center;
   margin-top: 50px;
   padding: 0px 16px;
-  position: rlative;
+  position: relative;
   z-index: 1;
   align-items: center;
 `;
@@ -53,15 +53,18 @@ const Desc = styled.div`
 
 const ToggleButtonGroup = styled.div`
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   border: 1.5px solid ${({ theme }) => theme.primary};
   color: ${({ theme }) => theme.primary};
   font-size: 16px;
   border-radius: 12px;
-font-weight 500;
-margin: 22px 0;
-@media (max-width: 768px){
+  font-weight: 500;
+  margin: 22px 0;
+  overflow: hidden;
+  @media (max-width: 768px) {
     font-size: 12px;
-}
+  }
 `;
 const ToggleButton = styled.div`
   padding: 8px 18px;
@@ -73,6 +76,8 @@ const ToggleButton = styled.div`
   @media (max-width: 768px) {
     padding: 6px 8px;
     border-radius: 4px;
+    flex: 1 1 auto;
+    text-align: center;
   }
   ${({ active, theme }) =>
     active &&
@@ -177,6 +182,7 @@ const DetailTitle = styled.h3`
   line-height: 1.18;
   font-weight: 700;
   margin-bottom: 10px;
+  overflow-wrap: anywhere;
 
   @media (max-width: 768px) {
     font-size: 28px;
@@ -238,6 +244,8 @@ const DetailTag = styled.span`
   padding: 7px 11px;
   font-size: 13px;
   font-weight: 600;
+  max-width: 100%;
+  overflow-wrap: anywhere;
 `;
 
 const SidePanel = styled.div`
@@ -259,6 +267,7 @@ const GitHubLink = styled.a`
   text-decoration: none;
   font-weight: 700;
   transition: transform 0.2s ease, filter 0.2s ease;
+  text-align: center;
 
   &:hover {
     transform: translateY(-2px);

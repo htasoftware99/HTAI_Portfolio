@@ -23,28 +23,27 @@ const Card = styled.div`
 const Image = styled.img`
   width: 100%;
   height: 180px;
+  flex: 0 0 180px;
   object-fit: cover;
   background-color: ${({ theme }) => theme.white};
   border-radius: 10px;
   box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.3);
 `;
 const Tags = styled.div`
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 4px;
-`;
-
-const Tag = styled.span`
-  font-size: 12px;
-  font-weight: 500;
+  display: inline-flex;
+  align-self: flex-start;
   color: ${({ theme }) => theme.primary};
   background: ${({ theme }) => theme.primary + 15};
   border: 1px solid ${({ theme }) => theme.primary + 35};
   border-radius: 8px;
-  padding: 4px 9px;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 `;
 const Details = styled.div`
   width: 100%;
@@ -52,6 +51,9 @@ const Details = styled.div`
   flex-direction: column;
   gap: 0px;
   padding: 0px 2px;
+  min-height: 0;
+  overflow: hidden;
+  flex: 1 1 auto;
 `;
 const Title = styled.div`
   font-size: 20px;
@@ -76,6 +78,8 @@ const Date = styled.div`
 `;
 const Description = styled.div`
   font-weight: 400;
+  font-size: 14px;
+  line-height: 1.45;
   color: ${({ theme }) => theme.text_secondary + 99};
   overflow: hidden;
   margin-top: 8px;
@@ -89,6 +93,7 @@ const Members = styled.div`
   display: flex;
   align-items: center;
   padding-left: 10px;
+  min-height: 38px;
 `;
 const Avatar = styled.img`
   width: 38px;
@@ -100,6 +105,7 @@ const Avatar = styled.img`
   border: 3px solid ${({ theme }) => theme.card};
 `;
 const Button = styled.button`
+  width: 100%;
   border: 1px solid ${({ theme }) => theme.primary + 70};
   border-radius: 8px;
   background: ${({ theme }) => theme.primary + 12};
@@ -109,6 +115,8 @@ const Button = styled.button`
   font-weight: 600;
   text-align: center;
   transition: all 0.25s ease;
+  flex: 0 0 auto;
+  margin-top: auto;
 
   &:hover {
     background: ${({ theme }) => theme.primary + 25};
@@ -120,11 +128,7 @@ const ProjectCard = ({ project, onOpen }) => {
   return (
     <Card>
       <Image src={project.image} />
-      <Tags>
-        {project.tags?.slice(0, 3).map((tag) => (
-          <Tag key={tag}>{tag}</Tag>
-        ))}
-      </Tags>
+      <Tags>{project.category}</Tags>
       <Details>
         <Title>{project.title}</Title>
         <Date>{project.date}</Date>
@@ -136,7 +140,7 @@ const ProjectCard = ({ project, onOpen }) => {
         ))}
       </Members>
       <Button type="button" onClick={() => onOpen(project)}>
-        View Code
+        View Details
       </Button>
     </Card>
   );
