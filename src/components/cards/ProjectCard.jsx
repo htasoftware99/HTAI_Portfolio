@@ -23,6 +23,7 @@ const Card = styled.div`
 const Image = styled.img`
   width: 100%;
   height: 180px;
+  object-fit: cover;
   background-color: ${({ theme }) => theme.white};
   border-radius: 10px;
   box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.3);
@@ -34,6 +35,16 @@ const Tags = styled.div`
   flex-wrap: wrap;
   gap: 8px;
   margin-top: 4px;
+`;
+
+const Tag = styled.span`
+  font-size: 12px;
+  font-weight: 500;
+  color: ${({ theme }) => theme.primary};
+  background: ${({ theme }) => theme.primary + 15};
+  border: 1px solid ${({ theme }) => theme.primary + 35};
+  border-radius: 8px;
+  padding: 4px 9px;
 `;
 const Details = styled.div`
   width: 100%;
@@ -88,18 +99,32 @@ const Avatar = styled.img`
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border: 3px solid ${({ theme }) => theme.card};
 `;
-const Button = styled.a`
+const Button = styled.button`
+  border: 1px solid ${({ theme }) => theme.primary + 70};
+  border-radius: 8px;
+  background: ${({ theme }) => theme.primary + 12};
   color: ${({ theme }) => theme.primary};
-  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 14px;
   font-weight: 600;
   text-align: center;
+  transition: all 0.25s ease;
+
+  &:hover {
+    background: ${({ theme }) => theme.primary + 25};
+    transform: translateY(-2px);
+  }
 `;
 
-const ProjectCard = ({ project }) => {
+const ProjectCard = ({ project, onOpen }) => {
   return (
     <Card>
       <Image src={project.image} />
-      <Tags></Tags>
+      <Tags>
+        {project.tags?.slice(0, 3).map((tag) => (
+          <Tag key={tag}>{tag}</Tag>
+        ))}
+      </Tags>
       <Details>
         <Title>{project.title}</Title>
         <Date>{project.date}</Date>
@@ -107,10 +132,10 @@ const ProjectCard = ({ project }) => {
       </Details>
       <Members>
         {project.member?.map((member) => (
-          <Avatar src={member.img} />
+          <Avatar key={member.github || member.name} src={member.img} alt={member.name} />
         ))}
       </Members>
-      <Button href={project.github} target="_blank">
+      <Button type="button" onClick={() => onOpen(project)}>
         View Code
       </Button>
     </Card>
