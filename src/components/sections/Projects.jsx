@@ -63,21 +63,28 @@ const ToggleButtonGroup = styled.div`
   margin: 22px 0;
   overflow: hidden;
   @media (max-width: 768px) {
-    font-size: 12px;
+    width: 100%;
+    flex-wrap: nowrap;
+    font-size: 10px;
   }
 `;
 const ToggleButton = styled.div`
   padding: 8px 18px;
   border-radius: 6px;
   cursor: pointer;
+  white-space: nowrap;
   &:hover {
     background: ${({ theme }) => theme.primary + 20};
   }
   @media (max-width: 768px) {
-    padding: 6px 8px;
+    padding: 6px 5px;
     border-radius: 4px;
-    flex: 1 1 auto;
+    flex: 1 1 0;
     text-align: center;
+  }
+  @media (max-width: 360px) {
+    padding: 6px 3px;
+    font-size: 9px;
   }
   ${({ active, theme }) =>
     active &&

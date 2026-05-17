@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Card = styled.div`
   width: 330px;
-  height: 490px;
+  height: 520px;
   background-color: ${({ theme }) => theme.card};
   cursor: pointer;
   border-radius: 10px;
@@ -49,7 +49,7 @@ const Details = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 0px;
+  gap: 4px;
   padding: 0px 2px;
   min-height: 0;
   overflow: hidden;
@@ -59,13 +59,13 @@ const Title = styled.div`
   font-size: 20px;
   font-weight: 600;
   color: ${({ theme }) => theme.text_secondary};
-  overflow: hidden;
   display: -webkit-box;
   max-width: 100%;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  flex: 0 0 auto;
 `;
 const Date = styled.div`
   font-size: 12px;
@@ -77,17 +77,34 @@ const Date = styled.div`
   }
 `;
 const Description = styled.div`
+  position: relative;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.45;
+  line-height: 1.55;
   color: ${({ theme }) => theme.text_secondary + 99};
   overflow: hidden;
-  margin-top: 8px;
-  display: -webkit-box;
+  margin-top: 4px;
+  display: block;
   max-width: 100%;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  text-overflow: ellipsis;
+  min-height: 50px;   
+  max-height: 80px;
+  padding-bottom: 0;
+  flex-shrink: 0;     
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 60px;
+    pointer-events: none;
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      ${({ theme }) => theme.card} 100%
+    );
+  }
 `;
 const Members = styled.div`
   display: flex;
